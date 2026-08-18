@@ -1,0 +1,15 @@
+C:\iar\ewarm-9.70.2\arm\bin\armproc.dll
+
+ C:\iar\ewarm-9.70.2\arm\bin\armstlink.dll
+
+ C:\Users\andrew.kane\Downloads\1.03\16463-A_1_2_0_5_8Feb2022\Project\IAR\Debug\Exe\16463-William_Main.out
+
+ --plugin=C:\iar\ewarm-9.70.2\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\iar\ewarm-9.70.2\arm/config/debugger/ST/STM32F1xx.dmac
+
+ --flash_loader=C:\iar\ewarm-9.70.2\arm/config/flashloader/ST/FlashSTM32F10xxE.board
+
+ 
+
+
