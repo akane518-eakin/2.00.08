@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\iar\ewarm-9.70.2\common\bin\cspybat" -f "C:\Users\andrew.kane\Downloads\1.03\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.general.xcl" --backend -f "C:\Users\andrew.kane\Downloads\1.03\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.driver.xcl" 
+& "C:\iar\ewarm-9.70.2\common\bin\cspybat" -f "C:\Users\andrew.kane\Downloads\2.00.06\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.general.xcl" --backend -f "C:\Users\andrew.kane\Downloads\2.00.06\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.driver.xcl" 
 }
 else
 {
-& "C:\iar\ewarm-9.70.2\common\bin\cspybat" -f "C:\Users\andrew.kane\Downloads\1.03\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\andrew.kane\Downloads\1.03\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.driver.xcl" 
+& "C:\iar\ewarm-9.70.2\common\bin\cspybat" -f "C:\Users\andrew.kane\Downloads\2.00.06\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\andrew.kane\Downloads\2.00.06\16463-A_1_2_0_5_8Feb2022\Project\IAR\settings\16463-William_Main.Debug.driver.xcl" 
 }

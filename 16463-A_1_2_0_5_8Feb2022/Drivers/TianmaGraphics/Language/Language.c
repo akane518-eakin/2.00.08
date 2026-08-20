@@ -223,7 +223,7 @@ void Lanugage_test(void)
         printf("\r\nf Swedish   ");
 	printf("\r\ng Turkish	    ");
 	printf("\r\nh Vietnamese   ");
-	uint8_t	rec_status_u8;
+	uint8_t	rec_status_u8   =  0;
         uint8_t	rec_char_u8	=  0;
 
 

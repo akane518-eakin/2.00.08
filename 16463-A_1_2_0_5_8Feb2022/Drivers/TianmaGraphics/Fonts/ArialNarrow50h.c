@@ -12,7 +12,7 @@
  * Invert bits: No                                                             *
  * Data format: Big Endian, Row based, Row preferred, Packed                   *
  *                                                                             *
- * Create time: 14:25 08-16-2026                                               *
+ * Create time: 05:27 08-20-2026                                               *
  *******************************************************************************/
 
 #include "bfcfont.h"
@@ -2740,6 +2740,31 @@ const UCHAR abc_fontArialNarrow50h_00F6[ 125] = { /* code 00F6 */
   0x00,  0x00,  0x00,  0x00,  0x00
 };
 
+const UCHAR abc_fontArialNarrow50h_00F8[ 169] = { /* code 00F8 */
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x60,  0x00,  0x7F,
+  0x1F,  0x00,  0x3F,  0xFF,  0xC0,  0x0F,  0xFF,  0xF0,
+  0x03,  0xFF,  0xFE,  0x00,  0x7E,  0x0F,  0xC0,  0x1F,
+  0x03,  0xFC,  0x03,  0xC0,  0x7F,  0x80,  0xF8,  0x1F,
+  0xF0,  0x1E,  0x07,  0xCF,  0x03,  0xC1,  0xF1,  0xE0,
+  0x78,  0x3C,  0x3C,  0x0F,  0x0F,  0x87,  0x81,  0xE3,
+  0xE0,  0xF0,  0x3C,  0xF8,  0x1E,  0x07,  0x9E,  0x03,
+  0xC0,  0xF7,  0xC0,  0xF8,  0x1F,  0xF0,  0x1E,  0x03,
+  0xFC,  0x07,  0xC0,  0x3F,  0x01,  0xF8,  0x07,  0xE0,
+  0x7E,  0x00,  0xFF,  0xFF,  0xC0,  0x3F,  0xFF,  0xF0,
+  0x07,  0x9F,  0xF8,  0x00,  0xE0,  0xFC,  0x00,  0x04,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00
+};
+
 const UCHAR abc_fontArialNarrow50h_00F9[ 125] = { /* code 00F9 */
   0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
   0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
@@ -3298,27 +3323,6 @@ const UCHAR abc_fontArialNarrow50h_016B[ 125] = { /* code 016B */
   0x38,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
   0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
   0x00,  0x00,  0x00,  0x00,  0x00
-};
-
-const UCHAR abc_fontArialNarrow50h_017A[ 138] = { /* code 017A */
-  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
-  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
-  0x00,  0x00,  0x00,  0x00,  0x07,  0xC0,  0x00,  0x3E,
-  0x00,  0x00,  0xF0,  0x00,  0x07,  0x80,  0x00,  0x1C,
-  0x00,  0x00,  0xE0,  0x00,  0x00,  0x00,  0x00,  0x00,
-  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0xFF,
-  0xFF,  0xC3,  0xFF,  0xFF,  0x0F,  0xFF,  0xFC,  0x3F,
-  0xFF,  0xF0,  0x00,  0x0F,  0x80,  0x00,  0x7C,  0x00,
-  0x03,  0xE0,  0x00,  0x1F,  0x00,  0x00,  0xFC,  0x00,
-  0x03,  0xE0,  0x00,  0x1F,  0x00,  0x00,  0xF8,  0x00,
-  0x07,  0xC0,  0x00,  0x3E,  0x00,  0x01,  0xF0,  0x00,
-  0x0F,  0x80,  0x00,  0x7C,  0x00,  0x01,  0xF0,  0x00,
-  0x0F,  0x80,  0x00,  0x7F,  0xFF,  0xF9,  0xFF,  0xFF,
-  0xE7,  0xFF,  0xFF,  0x9F,  0xFF,  0xFE,  0x00,  0x00,
-  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
-  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
-  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
-  0x00,  0x00
 };
 
 const UCHAR abc_fontArialNarrow50h_017B[ 138] = { /* code 017B */
@@ -5612,6 +5616,7 @@ const BFC_CHARINFO fontArialNarrow50h_CharInfo[281] = {
    {  20, 125, {abc_fontArialNarrow50h_00F4} }, /* code 00F4 */
    {  20, 125, {abc_fontArialNarrow50h_00F5} }, /* code 00F5 */
    {  20, 125, {abc_fontArialNarrow50h_00F6} }, /* code 00F6 */
+   {  27, 169, {abc_fontArialNarrow50h_00F8} }, /* code 00F8 */
    {  20, 125, {abc_fontArialNarrow50h_00F9} }, /* code 00F9 */
    {  20, 125, {abc_fontArialNarrow50h_00FA} }, /* code 00FA */
    {  20, 125, {abc_fontArialNarrow50h_00FB} }, /* code 00FB */
@@ -5643,7 +5648,6 @@ const BFC_CHARINFO fontArialNarrow50h_CharInfo[281] = {
    {  18, 113, {abc_fontArialNarrow50h_0161} }, /* code 0161 */
    {  20, 125, {abc_fontArialNarrow50h_0169} }, /* code 0169 */
    {  20, 125, {abc_fontArialNarrow50h_016B} }, /* code 016B */
-   {  22, 138, {abc_fontArialNarrow50h_017A} }, /* code 017A */
    {  22, 138, {abc_fontArialNarrow50h_017B} }, /* code 017B */
    {  29, 182, {abc_fontArialNarrow50h_01B0} }, /* code 01B0 */
    {  10,  63, {abc_fontArialNarrow50h_021B} }, /* code 021B */
@@ -6038,126 +6042,126 @@ const BFC_FONT_PROP fontArialNarrow50h_Prop26 = {
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop25 = {
-   0x017A, /* first character */
+   0x017B, /* first character */
    0x017B, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 176],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 177],  /* address of first character */
    &fontArialNarrow50h_Prop26			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop24 = {
    0x016B, /* first character */
    0x016B, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 175],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 176],  /* address of first character */
    &fontArialNarrow50h_Prop25			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop23 = {
    0x0169, /* first character */
    0x0169, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 174],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 175],  /* address of first character */
    &fontArialNarrow50h_Prop24			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop22 = {
    0x015E, /* first character */
    0x0161, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 170],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 171],  /* address of first character */
    &fontArialNarrow50h_Prop23			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop21 = {
    0x0146, /* first character */
    0x0146, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 169],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 170],  /* address of first character */
    &fontArialNarrow50h_Prop22			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop20 = {
    0x0144, /* first character */
    0x0144, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 168],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 169],  /* address of first character */
    &fontArialNarrow50h_Prop21			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop19 = {
    0x0141, /* first character */
    0x0142, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 166],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 167],  /* address of first character */
    &fontArialNarrow50h_Prop20			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop18 = {
    0x013B, /* first character */
    0x013C, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 164],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 165],  /* address of first character */
    &fontArialNarrow50h_Prop19			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop17 = {
    0x0137, /* first character */
    0x0137, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 163],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 164],  /* address of first character */
    &fontArialNarrow50h_Prop18			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop16 = {
    0x0130, /* first character */
    0x0131, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 161],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 162],  /* address of first character */
    &fontArialNarrow50h_Prop17			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop15 = {
    0x012B, /* first character */
    0x012B, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 160],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 161],  /* address of first character */
    &fontArialNarrow50h_Prop16			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop14 = {
    0x011F, /* first character */
    0x011F, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 159],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 160],  /* address of first character */
    &fontArialNarrow50h_Prop15			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop13 = {
    0x0119, /* first character */
    0x0119, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 158],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 159],  /* address of first character */
    &fontArialNarrow50h_Prop14			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop12 = {
    0x0111, /* first character */
    0x0113, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 155],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 156],  /* address of first character */
    &fontArialNarrow50h_Prop13			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop11 = {
    0x0107, /* first character */
    0x0107, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 154],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 155],  /* address of first character */
    &fontArialNarrow50h_Prop12			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop10 = {
    0x0103, /* first character */
    0x0105, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 151],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 152],  /* address of first character */
    &fontArialNarrow50h_Prop11			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop9 = {
    0x0100, /* first character */
    0x0101, /* last character  */
-   &fontArialNarrow50h_CharInfo[ 149],  /* address of first character */
+   &fontArialNarrow50h_CharInfo[ 150],  /* address of first character */
    &fontArialNarrow50h_Prop10			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArialNarrow50h_Prop8 = {
-   0x00F9, /* first character */
+   0x00F8, /* first character */
    0x00FC, /* last character  */
    &fontArialNarrow50h_CharInfo[ 145],  /* address of first character */
    &fontArialNarrow50h_Prop9			/* pointer to next BFC_FONT_PROP */

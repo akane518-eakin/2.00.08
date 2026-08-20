@@ -868,7 +868,7 @@ void app_UI_screen_eng_mode(uint8_t touch_status, uint8_t but_status, bool init)
 		//O2
 		LCD_DrawSoftRect_1(						10,156,60,304,10, COLOUR_BLACK);	//x,y,w,h,corner,col
 		app_touchscreen_button_add(	BUTTON_0,	10,158,60,300);						//id,x,y,w,h
-		LCD_DispText_option(					5,135,70,20,CENTER,COLOUR_BLACK,TRANSPARENT, &fontArial16h, "O ");	//x,y,w,h,justification,col,font,txt
+		LCD_DispText_option(					5,135,70,20,CENTER,COLOUR_BLACK,TRANSPARENT, &fontArial16h, "O²");	//x,y,w,h,justification,col,font,txt
 
 		//AIR
 		LCD_DrawSoftRect_1(						80,156,60,304,10, COLOUR_BLACK);	//x,y,w,h,corner,col
@@ -1546,7 +1546,7 @@ void app_UI_screen_calibrate_sensors(uint8_t touch_status, uint8_t but_status, b
 		//O2
 		LCD_DrawSoftRect_1(						10,156+96+10,60,150+45+4,10, COLOUR_BLACK);		//x,y,w,h,corner,col
 		app_touchscreen_button_add(	BUTTON_0,	10,158+96+10,60,150+45);					//id,x,y,w,h
-		LCD_DispText_option(					10,135+96+10,60,20,CENTER,COLOUR_BLACK,TRANSPARENT, &fontArial16h, "O ");	//x,y,w,h,justification,col,font,txt
+		LCD_DispText_option(					10,135+96+10,60,20,CENTER,COLOUR_BLACK,TRANSPARENT, &fontArial16h, "O²");	//x,y,w,h,justification,col,font,txt
 
 		//AIR
 		LCD_DrawSoftRect_1(						80,156+96+10,60,150+45+4,10, COLOUR_BLACK);		//x,y,w,h,corner,col
@@ -1706,7 +1706,7 @@ void app_UI_screen_calibrate_sensors(uint8_t touch_status, uint8_t but_status, b
 		//O2 RAW
 		LCD_DrawSoftRect_1(						220,156,60,304,10, COLOUR_BLACK);		//x,y,w,h,corner,col
 		app_touchscreen_button_add(	BUTTON_18,	220,158,60,300);					//id,x,y,w,h
-		LCD_DispText_option(					220,135,60,20,CENTER,COLOUR_BLACK,TRANSPARENT, &fontArial16h, "O  raw");	//x,y,w,h,justification,col,font,txt
+		LCD_DispText_option(					220,135,60,20,CENTER,COLOUR_BLACK,TRANSPARENT, &fontArial16h, "O² raw");	//x,y,w,h,justification,col,font,txt
 
 		//AIR RAW
 		LCD_DrawSoftRect_1(						290,156,60,304,10, COLOUR_BLACK);		//x,y,w,h,corner,col
@@ -3684,7 +3684,7 @@ void 	app_UI_screen_main(			uint8_t touch_status, uint8_t but_status, bool init)
 		}
 
 		LCD_DispText_option(	10+135	,270 + 60	,65,60		,BOTTOM_LEFT,COLOUR_BLACK,COLOUR_BUTTON_BACK, &fontArial22h, LanguageStr(LangStr_Lmin));	//x,y,w,h,justification,col,font,txt
-		sprintf(str,"%% O ");
+		sprintf(str,"%% O²");
 		LCD_DispText_option(	10+135	,270 +130	,65,60		,BOTTOM_LEFT,COLOUR_BLACK,COLOUR_BUTTON_BACK, &fontArial22h, str);	//x,y,w,h,justification,col,font,txt
 
 

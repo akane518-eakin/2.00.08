@@ -12,7 +12,7 @@
  * Invert bits: No                                                             *
  * Data format: Big Endian, Row based, Row preferred, Packed                   *
  *                                                                             *
- * Create time: 15:18 07-31-2026                                               *
+ * Create time: 05:40 08-20-2026                                               *
  *******************************************************************************/
 
 #include "bfcfont.h"
@@ -633,6 +633,12 @@ const UCHAR abc_fontArial16h_00D6[  20] = { /* code 00D6 */
   0x00,  0x00,  0x00,  0x00
 };
 
+const UCHAR abc_fontArial16h_00D8[  20] = { /* code 00D8 */
+  0x00,  0x00,  0x00,  0x00,  0x7A,  0x21,  0x10,  0xA4,
+  0x29,  0x12,  0x48,  0x92,  0x25,  0x08,  0x84,  0x5E,
+  0x00,  0x00,  0x00,  0x00
+};
+
 const UCHAR abc_fontArial16h_00D9[  18] = { /* code 00D9 */
   0x10,  0x04,  0x00,  0x08,  0x24,  0x12,  0x09,  0x04,
   0x82,  0x41,  0x20,  0x90,  0x44,  0x41,  0xC0,  0x00,
@@ -769,6 +775,11 @@ const UCHAR abc_fontArial16h_00F5[  14] = { /* code 00F5 */
 const UCHAR abc_fontArial16h_00F6[  14] = { /* code 00F6 */
   0x00,  0x00,  0x00,  0x02,  0x80,  0x0E,  0x22,  0x44,
   0x89,  0x12,  0x23,  0x80,  0x00,  0x00
+};
+
+const UCHAR abc_fontArial16h_00F8[  14] = { /* code 00F8 */
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x0D,  0x24,  0x4C,
+  0xA9,  0x91,  0x25,  0x80,  0x00,  0x00
 };
 
 const UCHAR abc_fontArial16h_00F9[  14] = { /* code 00F9 */
@@ -1453,7 +1464,7 @@ const UCHAR abc_fontArial16h_1EE3[  18] = { /* code 1EE3 */
   0x20,  0x00
 };
 
-const BFC_CHARINFO fontArial16h_CharInfo[277] = {
+const BFC_CHARINFO fontArial16h_CharInfo[279] = {
    {   4,   8, {abc_fontArial16h_0020} }, /* code 0020 */
    {   3,   6, {abc_fontArial16h_0021} }, /* code 0021 */
    {   5,  10, {abc_fontArial16h_0022} }, /* code 0022 */
@@ -1573,6 +1584,7 @@ const BFC_CHARINFO fontArial16h_CharInfo[277] = {
    {  10,  20, {abc_fontArial16h_00D4} }, /* code 00D4 */
    {  10,  20, {abc_fontArial16h_00D5} }, /* code 00D5 */
    {  10,  20, {abc_fontArial16h_00D6} }, /* code 00D6 */
+   {  10,  20, {abc_fontArial16h_00D8} }, /* code 00D8 */
    {   9,  18, {abc_fontArial16h_00D9} }, /* code 00D9 */
    {   9,  18, {abc_fontArial16h_00DA} }, /* code 00DA */
    {   9,  18, {abc_fontArial16h_00DB} }, /* code 00DB */
@@ -1600,6 +1612,7 @@ const BFC_CHARINFO fontArial16h_CharInfo[277] = {
    {   7,  14, {abc_fontArial16h_00F4} }, /* code 00F4 */
    {   7,  14, {abc_fontArial16h_00F5} }, /* code 00F5 */
    {   7,  14, {abc_fontArial16h_00F6} }, /* code 00F6 */
+   {   7,  14, {abc_fontArial16h_00F8} }, /* code 00F8 */
    {   7,  14, {abc_fontArial16h_00F9} }, /* code 00F9 */
    {   7,  14, {abc_fontArial16h_00FA} }, /* code 00FA */
    {   7,  14, {abc_fontArial16h_00FB} }, /* code 00FB */
@@ -1736,376 +1749,376 @@ const BFC_CHARINFO fontArial16h_CharInfo[277] = {
 const BFC_FONT_PROP fontArial16h_Prop58 = {
    0x1EE2, /* first character */
    0x1EE3, /* last character  */
-   &fontArial16h_CharInfo[ 275],  /* address of first character */
+   &fontArial16h_CharInfo[ 277],  /* address of first character */
    (const BFC_FONT_PROP *)0				/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop57 = {
    0x1EDD, /* first character */
    0x1EDD, /* last character  */
-   &fontArial16h_CharInfo[ 274],  /* address of first character */
+   &fontArial16h_CharInfo[ 276],  /* address of first character */
    &fontArial16h_Prop58			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop56 = {
    0x1ED9, /* first character */
    0x1ED9, /* last character  */
-   &fontArial16h_CharInfo[ 273],  /* address of first character */
+   &fontArial16h_CharInfo[ 275],  /* address of first character */
    &fontArial16h_Prop57			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop55 = {
    0x1ED5, /* first character */
    0x1ED5, /* last character  */
-   &fontArial16h_CharInfo[ 272],  /* address of first character */
+   &fontArial16h_CharInfo[ 274],  /* address of first character */
    &fontArial16h_Prop56			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop54 = {
    0x1ED3, /* first character */
    0x1ED3, /* last character  */
-   &fontArial16h_CharInfo[ 271],  /* address of first character */
+   &fontArial16h_CharInfo[ 273],  /* address of first character */
    &fontArial16h_Prop55			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop53 = {
    0x1ED1, /* first character */
    0x1ED1, /* last character  */
-   &fontArial16h_CharInfo[ 270],  /* address of first character */
+   &fontArial16h_CharInfo[ 272],  /* address of first character */
    &fontArial16h_Prop54			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop52 = {
    0x1EC7, /* first character */
    0x1EC7, /* last character  */
-   &fontArial16h_CharInfo[ 269],  /* address of first character */
+   &fontArial16h_CharInfo[ 271],  /* address of first character */
    &fontArial16h_Prop53			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop51 = {
    0x1EC2, /* first character */
    0x1EC2, /* last character  */
-   &fontArial16h_CharInfo[ 268],  /* address of first character */
+   &fontArial16h_CharInfo[ 270],  /* address of first character */
    &fontArial16h_Prop52			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop50 = {
    0x1EBF, /* first character */
    0x1EC0, /* last character  */
-   &fontArial16h_CharInfo[ 266],  /* address of first character */
+   &fontArial16h_CharInfo[ 268],  /* address of first character */
    &fontArial16h_Prop51			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop49 = {
    0x1EB9, /* first character */
    0x1EB9, /* last character  */
-   &fontArial16h_CharInfo[ 265],  /* address of first character */
+   &fontArial16h_CharInfo[ 267],  /* address of first character */
    &fontArial16h_Prop50			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop48 = {
    0x1EAF, /* first character */
    0x1EAF, /* last character  */
-   &fontArial16h_CharInfo[ 264],  /* address of first character */
+   &fontArial16h_CharInfo[ 266],  /* address of first character */
    &fontArial16h_Prop49			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop47 = {
    0x1EAD, /* first character */
    0x1EAD, /* last character  */
-   &fontArial16h_CharInfo[ 263],  /* address of first character */
+   &fontArial16h_CharInfo[ 265],  /* address of first character */
    &fontArial16h_Prop48			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop46 = {
    0x1EA9, /* first character */
    0x1EA9, /* last character  */
-   &fontArial16h_CharInfo[ 262],  /* address of first character */
+   &fontArial16h_CharInfo[ 264],  /* address of first character */
    &fontArial16h_Prop47			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop45 = {
    0x1EA1, /* first character */
    0x1EA5, /* last character  */
-   &fontArial16h_CharInfo[ 257],  /* address of first character */
+   &fontArial16h_CharInfo[ 259],  /* address of first character */
    &fontArial16h_Prop46			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop44 = {
    0x0641, /* first character */
    0x064A, /* last character  */
-   &fontArial16h_CharInfo[ 247],  /* address of first character */
+   &fontArial16h_CharInfo[ 249],  /* address of first character */
    &fontArial16h_Prop45			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop43 = {
    0x0639, /* first character */
    0x063A, /* last character  */
-   &fontArial16h_CharInfo[ 245],  /* address of first character */
+   &fontArial16h_CharInfo[ 247],  /* address of first character */
    &fontArial16h_Prop44			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop42 = {
    0x0631, /* first character */
    0x0637, /* last character  */
-   &fontArial16h_CharInfo[ 238],  /* address of first character */
+   &fontArial16h_CharInfo[ 240],  /* address of first character */
    &fontArial16h_Prop43			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop41 = {
    0x0627, /* first character */
    0x062F, /* last character  */
-   &fontArial16h_CharInfo[ 229],  /* address of first character */
+   &fontArial16h_CharInfo[ 231],  /* address of first character */
    &fontArial16h_Prop42			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop40 = {
    0x0623, /* first character */
    0x0625, /* last character  */
-   &fontArial16h_CharInfo[ 226],  /* address of first character */
+   &fontArial16h_CharInfo[ 228],  /* address of first character */
    &fontArial16h_Prop41			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop39 = {
    0x0621, /* first character */
    0x0621, /* last character  */
-   &fontArial16h_CharInfo[ 225],  /* address of first character */
+   &fontArial16h_CharInfo[ 227],  /* address of first character */
    &fontArial16h_Prop40			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop38 = {
    0x03CC, /* first character */
    0x03CD, /* last character  */
-   &fontArial16h_CharInfo[ 223],  /* address of first character */
+   &fontArial16h_CharInfo[ 225],  /* address of first character */
    &fontArial16h_Prop39			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop37 = {
    0x03C9, /* first character */
    0x03C9, /* last character  */
-   &fontArial16h_CharInfo[ 222],  /* address of first character */
+   &fontArial16h_CharInfo[ 224],  /* address of first character */
    &fontArial16h_Prop38			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop36 = {
    0x03C7, /* first character */
    0x03C7, /* last character  */
-   &fontArial16h_CharInfo[ 221],  /* address of first character */
+   &fontArial16h_CharInfo[ 223],  /* address of first character */
    &fontArial16h_Prop37			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop35 = {
    0x03B7, /* first character */
    0x03C5, /* last character  */
-   &fontArial16h_CharInfo[ 206],  /* address of first character */
+   &fontArial16h_CharInfo[ 208],  /* address of first character */
    &fontArial16h_Prop36			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop34 = {
    0x03B5, /* first character */
    0x03B5, /* last character  */
-   &fontArial16h_CharInfo[ 205],  /* address of first character */
+   &fontArial16h_CharInfo[ 207],  /* address of first character */
    &fontArial16h_Prop35			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop33 = {
    0x03B1, /* first character */
    0x03B3, /* last character  */
-   &fontArial16h_CharInfo[ 202],  /* address of first character */
+   &fontArial16h_CharInfo[ 204],  /* address of first character */
    &fontArial16h_Prop34			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop32 = {
    0x03AC, /* first character */
    0x03AF, /* last character  */
-   &fontArial16h_CharInfo[ 198],  /* address of first character */
+   &fontArial16h_CharInfo[ 200],  /* address of first character */
    &fontArial16h_Prop33			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop31 = {
    0x03A9, /* first character */
    0x03A9, /* last character  */
-   &fontArial16h_CharInfo[ 197],  /* address of first character */
+   &fontArial16h_CharInfo[ 199],  /* address of first character */
    &fontArial16h_Prop32			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop30 = {
    0x03A3, /* first character */
    0x03A7, /* last character  */
-   &fontArial16h_CharInfo[ 192],  /* address of first character */
+   &fontArial16h_CharInfo[ 194],  /* address of first character */
    &fontArial16h_Prop31			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop29 = {
    0x0399, /* first character */
    0x03A1, /* last character  */
-   &fontArial16h_CharInfo[ 183],  /* address of first character */
+   &fontArial16h_CharInfo[ 185],  /* address of first character */
    &fontArial16h_Prop30			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop28 = {
    0x0397, /* first character */
    0x0397, /* last character  */
-   &fontArial16h_CharInfo[ 182],  /* address of first character */
+   &fontArial16h_CharInfo[ 184],  /* address of first character */
    &fontArial16h_Prop29			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop27 = {
    0x0391, /* first character */
    0x0395, /* last character  */
-   &fontArial16h_CharInfo[ 177],  /* address of first character */
+   &fontArial16h_CharInfo[ 179],  /* address of first character */
    &fontArial16h_Prop28			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop26 = {
    0x0388, /* first character */
    0x0389, /* last character  */
-   &fontArial16h_CharInfo[ 175],  /* address of first character */
+   &fontArial16h_CharInfo[ 177],  /* address of first character */
    &fontArial16h_Prop27			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop25 = {
    0x021B, /* first character */
    0x021B, /* last character  */
-   &fontArial16h_CharInfo[ 174],  /* address of first character */
+   &fontArial16h_CharInfo[ 176],  /* address of first character */
    &fontArial16h_Prop26			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop24 = {
    0x01AF, /* first character */
    0x01B0, /* last character  */
-   &fontArial16h_CharInfo[ 172],  /* address of first character */
+   &fontArial16h_CharInfo[ 174],  /* address of first character */
    &fontArial16h_Prop25			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop23 = {
    0x017C, /* first character */
    0x017C, /* last character  */
-   &fontArial16h_CharInfo[ 171],  /* address of first character */
+   &fontArial16h_CharInfo[ 173],  /* address of first character */
    &fontArial16h_Prop24			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop22 = {
    0x017A, /* first character */
    0x017A, /* last character  */
-   &fontArial16h_CharInfo[ 170],  /* address of first character */
+   &fontArial16h_CharInfo[ 172],  /* address of first character */
    &fontArial16h_Prop23			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop21 = {
    0x016A, /* first character */
    0x016B, /* last character  */
-   &fontArial16h_CharInfo[ 168],  /* address of first character */
+   &fontArial16h_CharInfo[ 170],  /* address of first character */
    &fontArial16h_Prop22			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop20 = {
    0x015E, /* first character */
    0x015F, /* last character  */
-   &fontArial16h_CharInfo[ 166],  /* address of first character */
+   &fontArial16h_CharInfo[ 168],  /* address of first character */
    &fontArial16h_Prop21			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop19 = {
    0x015A, /* first character */
    0x015B, /* last character  */
-   &fontArial16h_CharInfo[ 164],  /* address of first character */
+   &fontArial16h_CharInfo[ 166],  /* address of first character */
    &fontArial16h_Prop20			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop18 = {
    0x0141, /* first character */
    0x0142, /* last character  */
-   &fontArial16h_CharInfo[ 162],  /* address of first character */
+   &fontArial16h_CharInfo[ 164],  /* address of first character */
    &fontArial16h_Prop19			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop17 = {
    0x013C, /* first character */
    0x013C, /* last character  */
-   &fontArial16h_CharInfo[ 161],  /* address of first character */
+   &fontArial16h_CharInfo[ 163],  /* address of first character */
    &fontArial16h_Prop18			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop16 = {
    0x0130, /* first character */
    0x0131, /* last character  */
-   &fontArial16h_CharInfo[ 159],  /* address of first character */
+   &fontArial16h_CharInfo[ 161],  /* address of first character */
    &fontArial16h_Prop17			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop15 = {
    0x012A, /* first character */
    0x012A, /* last character  */
-   &fontArial16h_CharInfo[ 158],  /* address of first character */
+   &fontArial16h_CharInfo[ 160],  /* address of first character */
    &fontArial16h_Prop16			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop14 = {
    0x011F, /* first character */
    0x011F, /* last character  */
-   &fontArial16h_CharInfo[ 157],  /* address of first character */
+   &fontArial16h_CharInfo[ 159],  /* address of first character */
    &fontArial16h_Prop15			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop13 = {
    0x0119, /* first character */
    0x0119, /* last character  */
-   &fontArial16h_CharInfo[ 156],  /* address of first character */
+   &fontArial16h_CharInfo[ 158],  /* address of first character */
    &fontArial16h_Prop14			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop12 = {
    0x0113, /* first character */
    0x0113, /* last character  */
-   &fontArial16h_CharInfo[ 155],  /* address of first character */
+   &fontArial16h_CharInfo[ 157],  /* address of first character */
    &fontArial16h_Prop13			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop11 = {
    0x0110, /* first character */
    0x0111, /* last character  */
-   &fontArial16h_CharInfo[ 153],  /* address of first character */
+   &fontArial16h_CharInfo[ 155],  /* address of first character */
    &fontArial16h_Prop12			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop10 = {
    0x0103, /* first character */
    0x0103, /* last character  */
-   &fontArial16h_CharInfo[ 152],  /* address of first character */
+   &fontArial16h_CharInfo[ 154],  /* address of first character */
    &fontArial16h_Prop11			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop9 = {
    0x0100, /* first character */
    0x0101, /* last character  */
-   &fontArial16h_CharInfo[ 150],  /* address of first character */
+   &fontArial16h_CharInfo[ 152],  /* address of first character */
    &fontArial16h_Prop10			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop8 = {
-   0x00F9, /* first character */
+   0x00F8, /* first character */
    0x00FC, /* last character  */
-   &fontArial16h_CharInfo[ 146],  /* address of first character */
+   &fontArial16h_CharInfo[ 147],  /* address of first character */
    &fontArial16h_Prop9			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop7 = {
    0x00F1, /* first character */
    0x00F6, /* last character  */
-   &fontArial16h_CharInfo[ 140],  /* address of first character */
+   &fontArial16h_CharInfo[ 141],  /* address of first character */
    &fontArial16h_Prop8			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop6 = {
    0x00E0, /* first character */
    0x00EF, /* last character  */
-   &fontArial16h_CharInfo[ 124],  /* address of first character */
+   &fontArial16h_CharInfo[ 125],  /* address of first character */
    &fontArial16h_Prop7			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial16h_Prop5 = {
-   0x00D9, /* first character */
+   0x00D8, /* first character */
    0x00DD, /* last character  */
    &fontArial16h_CharInfo[ 119],  /* address of first character */
    &fontArial16h_Prop6			/* pointer to next BFC_FONT_PROP */

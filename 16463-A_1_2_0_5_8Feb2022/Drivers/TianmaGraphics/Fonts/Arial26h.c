@@ -12,7 +12,7 @@
  * Invert bits: No                                                             *
  * Data format: Big Endian, Row based, Row preferred, Packed                   *
  *                                                                             *
- * Create time: 15:16 07-31-2026                                               *
+ * Create time: 05:38 08-20-2026                                               *
  *******************************************************************************/
 
 #include "bfcfont.h"
@@ -1058,6 +1058,17 @@ const UCHAR abc_fontArial26h_00D6[  59] = { /* code 00D6 */
   0x00,  0x00,  0x00
 };
 
+const UCHAR abc_fontArial26h_00D8[  59] = { /* code 00D8 */
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x03,  0xF0,  0x83,  0xFE,  0x61,  0xC0,  0xF0,
+  0xE0,  0x18,  0x30,  0x0F,  0x18,  0x06,  0xC6,  0x03,
+  0x19,  0x81,  0x86,  0x60,  0xC1,  0x98,  0x60,  0x66,
+  0x18,  0x19,  0xCC,  0x0E,  0x36,  0x03,  0x0F,  0x01,
+  0xC1,  0xC0,  0xE0,  0xFF,  0xF0,  0x63,  0xF0,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00
+};
+
 const UCHAR abc_fontArial26h_00D9[  56] = { /* code 00D9 */
   0x03,  0x80,  0x00,  0xC0,  0x00,  0x30,  0x00,  0x00,
   0x03,  0x00,  0x61,  0x80,  0x30,  0xC0,  0x18,  0x60,
@@ -1284,6 +1295,15 @@ const UCHAR abc_fontArial26h_00F6[  43] = { /* code 00F6 */
   0x0E,  0x38,  0xE0,  0xE6,  0x03,  0x30,  0x19,  0x80,
   0xCC,  0x06,  0x60,  0x33,  0x83,  0x8E,  0x38,  0x3F,
   0x80,  0xF8,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00
+};
+
+const UCHAR abc_fontArial26h_00F8[  43] = { /* code 00F8 */
+  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,
+  0x00,  0x00,  0x00,  0x00,  0x06,  0x0F,  0xB0,  0xFF,
+  0x0E,  0x38,  0xE1,  0xE6,  0x1B,  0x31,  0x99,  0x8C,
+  0xCC,  0xC6,  0x6C,  0x33,  0xC3,  0x8E,  0x38,  0x7F,
+  0x86,  0xF8,  0x30,  0x00,  0x00,  0x00,  0x00,  0x00,
   0x00,  0x00,  0x00
 };
 
@@ -2025,7 +2045,7 @@ const UCHAR abc_fontArial26h_1EE5[  39] = { /* code 1EE5 */
   0x00,  0x06,  0x00,  0x60,  0x00,  0x00,  0x00
 };
 
-const BFC_CHARINFO fontArial26h_CharInfo[234] = {
+const BFC_CHARINFO fontArial26h_CharInfo[236] = {
    {   6,  20, {abc_fontArial26h_0020} }, /* code 0020 */
    {   8,  26, {abc_fontArial26h_0021} }, /* code 0021 */
    {   8,  26, {abc_fontArial26h_0022} }, /* code 0022 */
@@ -2146,6 +2166,7 @@ const BFC_CHARINFO fontArial26h_CharInfo[234] = {
    {  18,  59, {abc_fontArial26h_00D4} }, /* code 00D4 */
    {  18,  59, {abc_fontArial26h_00D5} }, /* code 00D5 */
    {  18,  59, {abc_fontArial26h_00D6} }, /* code 00D6 */
+   {  18,  59, {abc_fontArial26h_00D8} }, /* code 00D8 */
    {  17,  56, {abc_fontArial26h_00D9} }, /* code 00D9 */
    {  17,  56, {abc_fontArial26h_00DA} }, /* code 00DA */
    {  17,  56, {abc_fontArial26h_00DB} }, /* code 00DB */
@@ -2172,6 +2193,7 @@ const BFC_CHARINFO fontArial26h_CharInfo[234] = {
    {  13,  43, {abc_fontArial26h_00F4} }, /* code 00F4 */
    {  13,  43, {abc_fontArial26h_00F5} }, /* code 00F5 */
    {  13,  43, {abc_fontArial26h_00F6} }, /* code 00F6 */
+   {  13,  43, {abc_fontArial26h_00F8} }, /* code 00F8 */
    {  13,  43, {abc_fontArial26h_00F9} }, /* code 00F9 */
    {  13,  43, {abc_fontArial26h_00FA} }, /* code 00FA */
    {  13,  43, {abc_fontArial26h_00FB} }, /* code 00FB */
@@ -2265,362 +2287,362 @@ const BFC_CHARINFO fontArial26h_CharInfo[234] = {
 const BFC_FONT_PROP fontArial26h_Prop57 = {
    0x1EE5, /* first character */
    0x1EE5, /* last character  */
-   &fontArial26h_CharInfo[ 233],  /* address of first character */
+   &fontArial26h_CharInfo[ 235],  /* address of first character */
    (const BFC_FONT_PROP *)0				/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop56 = {
    0x1EE3, /* first character */
    0x1EE3, /* last character  */
-   &fontArial26h_CharInfo[ 232],  /* address of first character */
+   &fontArial26h_CharInfo[ 234],  /* address of first character */
    &fontArial26h_Prop57			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop55 = {
    0x1ED3, /* first character */
    0x1ED3, /* last character  */
-   &fontArial26h_CharInfo[ 231],  /* address of first character */
+   &fontArial26h_CharInfo[ 233],  /* address of first character */
    &fontArial26h_Prop56			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop54 = {
    0x1ED1, /* first character */
    0x1ED1, /* last character  */
-   &fontArial26h_CharInfo[ 230],  /* address of first character */
+   &fontArial26h_CharInfo[ 232],  /* address of first character */
    &fontArial26h_Prop55			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop53 = {
    0x1EC9, /* first character */
    0x1EC9, /* last character  */
-   &fontArial26h_CharInfo[ 229],  /* address of first character */
+   &fontArial26h_CharInfo[ 231],  /* address of first character */
    &fontArial26h_Prop54			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop52 = {
    0x1EBF, /* first character */
    0x1EBF, /* last character  */
-   &fontArial26h_CharInfo[ 228],  /* address of first character */
+   &fontArial26h_CharInfo[ 230],  /* address of first character */
    &fontArial26h_Prop53			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop51 = {
    0x1EB5, /* first character */
    0x1EB5, /* last character  */
-   &fontArial26h_CharInfo[ 227],  /* address of first character */
+   &fontArial26h_CharInfo[ 229],  /* address of first character */
    &fontArial26h_Prop52			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop50 = {
    0x1EB1, /* first character */
    0x1EB1, /* last character  */
-   &fontArial26h_CharInfo[ 226],  /* address of first character */
+   &fontArial26h_CharInfo[ 228],  /* address of first character */
    &fontArial26h_Prop51			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop49 = {
    0x1EA5, /* first character */
    0x1EA5, /* last character  */
-   &fontArial26h_CharInfo[ 225],  /* address of first character */
+   &fontArial26h_CharInfo[ 227],  /* address of first character */
    &fontArial26h_Prop50			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop48 = {
    0x0641, /* first character */
    0x064A, /* last character  */
-   &fontArial26h_CharInfo[ 215],  /* address of first character */
+   &fontArial26h_CharInfo[ 217],  /* address of first character */
    &fontArial26h_Prop49			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop47 = {
    0x0639, /* first character */
    0x063A, /* last character  */
-   &fontArial26h_CharInfo[ 213],  /* address of first character */
+   &fontArial26h_CharInfo[ 215],  /* address of first character */
    &fontArial26h_Prop48			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop46 = {
    0x0637, /* first character */
    0x0637, /* last character  */
-   &fontArial26h_CharInfo[ 212],  /* address of first character */
+   &fontArial26h_CharInfo[ 214],  /* address of first character */
    &fontArial26h_Prop47			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop45 = {
    0x0635, /* first character */
    0x0635, /* last character  */
-   &fontArial26h_CharInfo[ 211],  /* address of first character */
+   &fontArial26h_CharInfo[ 213],  /* address of first character */
    &fontArial26h_Prop46			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop44 = {
    0x0631, /* first character */
    0x0633, /* last character  */
-   &fontArial26h_CharInfo[ 208],  /* address of first character */
+   &fontArial26h_CharInfo[ 210],  /* address of first character */
    &fontArial26h_Prop45			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop43 = {
    0x062F, /* first character */
    0x062F, /* last character  */
-   &fontArial26h_CharInfo[ 207],  /* address of first character */
+   &fontArial26h_CharInfo[ 209],  /* address of first character */
    &fontArial26h_Prop44			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop42 = {
    0x062C, /* first character */
    0x062C, /* last character  */
-   &fontArial26h_CharInfo[ 206],  /* address of first character */
+   &fontArial26h_CharInfo[ 208],  /* address of first character */
    &fontArial26h_Prop43			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop41 = {
    0x0627, /* first character */
    0x062A, /* last character  */
-   &fontArial26h_CharInfo[ 202],  /* address of first character */
+   &fontArial26h_CharInfo[ 204],  /* address of first character */
    &fontArial26h_Prop42			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop40 = {
    0x0625, /* first character */
    0x0625, /* last character  */
-   &fontArial26h_CharInfo[ 201],  /* address of first character */
+   &fontArial26h_CharInfo[ 203],  /* address of first character */
    &fontArial26h_Prop41			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop39 = {
    0x0623, /* first character */
    0x0623, /* last character  */
-   &fontArial26h_CharInfo[ 200],  /* address of first character */
+   &fontArial26h_CharInfo[ 202],  /* address of first character */
    &fontArial26h_Prop40			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop38 = {
    0x0621, /* first character */
    0x0621, /* last character  */
-   &fontArial26h_CharInfo[ 199],  /* address of first character */
+   &fontArial26h_CharInfo[ 201],  /* address of first character */
    &fontArial26h_Prop39			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop37 = {
    0x061F, /* first character */
    0x061F, /* last character  */
-   &fontArial26h_CharInfo[ 198],  /* address of first character */
+   &fontArial26h_CharInfo[ 200],  /* address of first character */
    &fontArial26h_Prop38			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop36 = {
    0x03CC, /* first character */
    0x03CD, /* last character  */
-   &fontArial26h_CharInfo[ 196],  /* address of first character */
+   &fontArial26h_CharInfo[ 198],  /* address of first character */
    &fontArial26h_Prop37			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop35 = {
    0x03C9, /* first character */
    0x03C9, /* last character  */
-   &fontArial26h_CharInfo[ 195],  /* address of first character */
+   &fontArial26h_CharInfo[ 197],  /* address of first character */
    &fontArial26h_Prop36			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop34 = {
    0x03BB, /* first character */
    0x03C7, /* last character  */
-   &fontArial26h_CharInfo[ 182],  /* address of first character */
+   &fontArial26h_CharInfo[ 184],  /* address of first character */
    &fontArial26h_Prop35			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop33 = {
    0x03B7, /* first character */
    0x03B9, /* last character  */
-   &fontArial26h_CharInfo[ 179],  /* address of first character */
+   &fontArial26h_CharInfo[ 181],  /* address of first character */
    &fontArial26h_Prop34			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop32 = {
    0x03B3, /* first character */
    0x03B5, /* last character  */
-   &fontArial26h_CharInfo[ 176],  /* address of first character */
+   &fontArial26h_CharInfo[ 178],  /* address of first character */
    &fontArial26h_Prop33			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop31 = {
    0x03B1, /* first character */
    0x03B1, /* last character  */
-   &fontArial26h_CharInfo[ 175],  /* address of first character */
+   &fontArial26h_CharInfo[ 177],  /* address of first character */
    &fontArial26h_Prop32			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop30 = {
    0x03AC, /* first character */
    0x03AF, /* last character  */
-   &fontArial26h_CharInfo[ 171],  /* address of first character */
+   &fontArial26h_CharInfo[ 173],  /* address of first character */
    &fontArial26h_Prop31			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop29 = {
    0x03A7, /* first character */
    0x03A7, /* last character  */
-   &fontArial26h_CharInfo[ 170],  /* address of first character */
+   &fontArial26h_CharInfo[ 172],  /* address of first character */
    &fontArial26h_Prop30			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop28 = {
    0x03A3, /* first character */
    0x03A3, /* last character  */
-   &fontArial26h_CharInfo[ 169],  /* address of first character */
+   &fontArial26h_CharInfo[ 171],  /* address of first character */
    &fontArial26h_Prop29			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop27 = {
    0x0394, /* first character */
    0x0394, /* last character  */
-   &fontArial26h_CharInfo[ 168],  /* address of first character */
+   &fontArial26h_CharInfo[ 170],  /* address of first character */
    &fontArial26h_Prop28			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop26 = {
    0x0391, /* first character */
    0x0391, /* last character  */
-   &fontArial26h_CharInfo[ 167],  /* address of first character */
+   &fontArial26h_CharInfo[ 169],  /* address of first character */
    &fontArial26h_Prop27			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop25 = {
    0x021B, /* first character */
    0x021B, /* last character  */
-   &fontArial26h_CharInfo[ 166],  /* address of first character */
+   &fontArial26h_CharInfo[ 168],  /* address of first character */
    &fontArial26h_Prop26			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop24 = {
    0x0219, /* first character */
    0x0219, /* last character  */
-   &fontArial26h_CharInfo[ 165],  /* address of first character */
+   &fontArial26h_CharInfo[ 167],  /* address of first character */
    &fontArial26h_Prop25			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop23 = {
    0x01B0, /* first character */
    0x01B0, /* last character  */
-   &fontArial26h_CharInfo[ 164],  /* address of first character */
+   &fontArial26h_CharInfo[ 166],  /* address of first character */
    &fontArial26h_Prop24			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop22 = {
    0x017C, /* first character */
    0x017C, /* last character  */
-   &fontArial26h_CharInfo[ 163],  /* address of first character */
+   &fontArial26h_CharInfo[ 165],  /* address of first character */
    &fontArial26h_Prop23			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop21 = {
    0x016B, /* first character */
    0x016B, /* last character  */
-   &fontArial26h_CharInfo[ 162],  /* address of first character */
+   &fontArial26h_CharInfo[ 164],  /* address of first character */
    &fontArial26h_Prop22			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop20 = {
    0x015F, /* first character */
    0x015F, /* last character  */
-   &fontArial26h_CharInfo[ 161],  /* address of first character */
+   &fontArial26h_CharInfo[ 163],  /* address of first character */
    &fontArial26h_Prop21			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop19 = {
    0x0142, /* first character */
    0x0142, /* last character  */
-   &fontArial26h_CharInfo[ 160],  /* address of first character */
+   &fontArial26h_CharInfo[ 162],  /* address of first character */
    &fontArial26h_Prop20			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop18 = {
    0x013C, /* first character */
    0x013C, /* last character  */
-   &fontArial26h_CharInfo[ 159],  /* address of first character */
+   &fontArial26h_CharInfo[ 161],  /* address of first character */
    &fontArial26h_Prop19			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop17 = {
    0x0130, /* first character */
    0x0131, /* last character  */
-   &fontArial26h_CharInfo[ 157],  /* address of first character */
+   &fontArial26h_CharInfo[ 159],  /* address of first character */
    &fontArial26h_Prop18			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop16 = {
    0x012B, /* first character */
    0x012B, /* last character  */
-   &fontArial26h_CharInfo[ 156],  /* address of first character */
+   &fontArial26h_CharInfo[ 158],  /* address of first character */
    &fontArial26h_Prop17			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop15 = {
    0x0123, /* first character */
    0x0123, /* last character  */
-   &fontArial26h_CharInfo[ 155],  /* address of first character */
+   &fontArial26h_CharInfo[ 157],  /* address of first character */
    &fontArial26h_Prop16			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop14 = {
    0x0119, /* first character */
    0x0119, /* last character  */
-   &fontArial26h_CharInfo[ 154],  /* address of first character */
+   &fontArial26h_CharInfo[ 156],  /* address of first character */
    &fontArial26h_Prop15			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop13 = {
    0x0111, /* first character */
    0x0111, /* last character  */
-   &fontArial26h_CharInfo[ 153],  /* address of first character */
+   &fontArial26h_CharInfo[ 155],  /* address of first character */
    &fontArial26h_Prop14			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop12 = {
    0x0107, /* first character */
    0x0107, /* last character  */
-   &fontArial26h_CharInfo[ 152],  /* address of first character */
+   &fontArial26h_CharInfo[ 154],  /* address of first character */
    &fontArial26h_Prop13			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop11 = {
    0x0103, /* first character */
    0x0103, /* last character  */
-   &fontArial26h_CharInfo[ 151],  /* address of first character */
+   &fontArial26h_CharInfo[ 153],  /* address of first character */
    &fontArial26h_Prop12			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop10 = {
    0x0101, /* first character */
    0x0101, /* last character  */
-   &fontArial26h_CharInfo[ 150],  /* address of first character */
+   &fontArial26h_CharInfo[ 152],  /* address of first character */
    &fontArial26h_Prop11			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop9 = {
-   0x00F9, /* first character */
+   0x00F8, /* first character */
    0x00FC, /* last character  */
-   &fontArial26h_CharInfo[ 146],  /* address of first character */
+   &fontArial26h_CharInfo[ 147],  /* address of first character */
    &fontArial26h_Prop10			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop8 = {
    0x00F1, /* first character */
    0x00F6, /* last character  */
-   &fontArial26h_CharInfo[ 140],  /* address of first character */
+   &fontArial26h_CharInfo[ 141],  /* address of first character */
    &fontArial26h_Prop9			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop7 = {
    0x00E0, /* first character */
    0x00EF, /* last character  */
-   &fontArial26h_CharInfo[ 124],  /* address of first character */
+   &fontArial26h_CharInfo[ 125],  /* address of first character */
    &fontArial26h_Prop8			/* pointer to next BFC_FONT_PROP */
 };
 
 const BFC_FONT_PROP fontArial26h_Prop6 = {
-   0x00D9, /* first character */
+   0x00D8, /* first character */
    0x00DC, /* last character  */
    &fontArial26h_CharInfo[ 120],  /* address of first character */
    &fontArial26h_Prop7			/* pointer to next BFC_FONT_PROP */
