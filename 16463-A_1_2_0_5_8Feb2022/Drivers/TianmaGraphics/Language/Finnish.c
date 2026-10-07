@@ -131,7 +131,7 @@ const char* FinnishPhrase[] =
 	"CTRL ALL",
 	"CTRL VENT",
 	"ILMAVIRTAUS",
-	"0² VIRTAUS",
+	"O² VIRTAUS",
 	"Kalibroi anturit",
 
 	"cmH²O",
@@ -197,12 +197,12 @@ const char* FinnishPhrase[] =
 	"Tämä laite sammuu ajassa",
 	"Kaasua ei ole saatavilla",
 
-	"Start CPAP Therapy",
-	"Start CPAP Paed Therapy",
-	"Start CPAP Helmet Therapy",
-	"Start Bubble PAP Therapy",
-	"Start HFOT Therapy",
-	"Start POINT Therapy",
+	"Käynnistä CPAP-hoito",
+	"Käynnistä CPAP (ped.) -hoito",
+	"Käynnistä CPAP-kypärähoito",
+	"Käynnistä BUBBLE PAP -hoito",
+	"Käynnistä HFOT-hoito",
+	"Käynnistä POINT-hoito",
 
 };
 

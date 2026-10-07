@@ -61,7 +61,7 @@ const char* PortuguesePhrase[] =
 	"Fluxo a de calibração de O²",
 	"Fluxo b de calibração de O²",
 	"Fluxo c de calibração de O²",
-	"Fluxo d de calibração de O²d",
+	"Fluxo d de calibração de O²",
 	"Fluxo de ar de calibração a",
 	"Fluxo de ar de calibração b",
 	"Fluxo de ar de calibração c",
@@ -132,7 +132,7 @@ const char* PortuguesePhrase[] =
 	"CTRL TUDO",
 	"CTRL VENT",
 	"FLUXO DE AR",
-	"FLUXO DE 0²",
+	"FLUXO DE O²",
 	"Sensores de calibração",
 
 	"cmH²O",

@@ -31,6 +31,7 @@
 #include "Language.h"
 #include "csp_STM32_delay.h"
 #include "hal_STM32_uart.h"
+#include "csp_STM32_uart.h"
 
 #include "app_system.h"
 

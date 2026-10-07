@@ -226,7 +226,7 @@ const char* GermanPhrase[] =
 	"CPAP-Helm-Therapie starten",
 	"Bubble-PAP-Therapie starten",
 	"HFOT-Therapie starten",
-	"POINTT-Therapie starten",
+	"POINT-Therapie starten",
 
 };
 

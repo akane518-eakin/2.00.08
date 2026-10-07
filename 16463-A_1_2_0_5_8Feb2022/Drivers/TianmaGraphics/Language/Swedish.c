@@ -132,7 +132,7 @@ const char* SwedishPhrase[] =
 	"KONTR. ALLA",
 	"KONTR. VENT",
 	"LUFTFLÖDE",
-	"0²-FLÖDE",
+	"O²-FLÖDE",
 	"Kalibrera sensorer",
 
 	"cmH²O",

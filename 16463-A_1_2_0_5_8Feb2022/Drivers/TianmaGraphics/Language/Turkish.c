@@ -132,7 +132,7 @@ const char* TurkishPhrase[] =
 	"KNTRL TÜMÜ",
 	"KNTRL VENT",
 	"HAVA AKIŞI",
-	"0² AKIŞI",
+	"O² AKIŞI",
 	"Sensörleri Kalibre Et",
 
 	"cmH²O",

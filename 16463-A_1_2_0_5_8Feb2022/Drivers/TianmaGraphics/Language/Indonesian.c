@@ -132,7 +132,7 @@ const char* IndonesianPhrase[] =
 	"KONTROL SEMUA",
 	"KONTROL VENT",
 	"ALIRAN UDARA",
-	"ALIRAN 0²",
+	"ALIRAN O²",
 	"Kalibrasi Sensor",
 
 	"cmH²O",

@@ -73,8 +73,8 @@ __root const uint8_t 		CodeVerify[12] 				@ "CodeVerification"		=  CODE_VER_STR;
 __root const sw_version_t	firmware_version_st_glb 	@ "FirmwareVer"				=  {	2,			// 01	 Firmware Revision 01.02.03
 																							0,			// 02
 																							0,			// 03
-																							7,			// 04
-																							20,			// Date	 Firmware Date
+																							8,			// 04
+																							25,			// Date	 Firmware Date
 																							8,			// Month
 																							26,			// Year
 																							__TIME__,	// time of compiler output

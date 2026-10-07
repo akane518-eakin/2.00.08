@@ -132,7 +132,7 @@ const char* RomanianPhrase[] =
 	"CTRL ALL",
 	"CTRL VENT",
 	"DEBIT AER",
-	"DEBIT 0²",
+	"DEBIT O²",
 	"Calibrarea senzorilor",
 
 	"cmH²O",

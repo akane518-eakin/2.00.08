@@ -132,7 +132,7 @@ const char* NorwegianPhrase[] =
 	"KONTROLL ALT",
 	"KONTROLL VENT",
 	"LUFTSTRØM",
-	"0²-STRØM",
+	"O²-STRØM",
 	"Kalibrer sensorer",
 
 	"cmH²O",

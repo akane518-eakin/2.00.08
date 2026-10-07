@@ -132,7 +132,7 @@ const char* LatvianPhrase[] =
 	"VADĪT VISU",
 	"VADĪT VENT",
 	"GAISA PLŪSMA",
-	"0² PLŪSMA",
+	"O² PLŪSMA",
 	"Kalibrēt sensorus.",
 
 	"cmH²O",
